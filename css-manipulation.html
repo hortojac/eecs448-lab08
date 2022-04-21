@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Manipulation</title>
+</head>
+<body>
+    <header>
+        <h1>
+            CSS Manipulation
+        </h1>
+    </header>
+    <textarea id = "text" name = "text" rows = "10" cols = "40">
+        This is an epic adventure. The story is about an archer who is constantly opposed by an exorcist. It starts on a prairie planet in a galaxy-spanning theocracy. A spell being cast at the right time plays an important role.
+    </textarea>
+    </BR></BR>Enter a Border Color:<input id = "borderColor" type = "color"></input></BR>
+    </BR>Enter a Background Color:<input id = "backgroundColor" type = "color"></input></BR>
+    </BR><button id="button" onclick="applyColor()">Apply Change</button>
+    <script type="text/javascript">
+        function applyColor()
+        {
+            let color1 = document.querySelector("#borderColor").value;
+            let color2 = document.querySelector("#backgroundColor").value;
+            document.getElementById("text").style.borderColor = color1;
+            document.getElementById("text").style.backgroundColor = color2;
+        }
+    </script>
+    <style>
+        #text{
+        opacity: 1;
+        margin-top: 40px;
+        margin-left: 10px;
+        border-width: 5px;
+        color: black;
+        border-color: black;
+    }
+    </style>
+</body>
+</html>

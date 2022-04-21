@@ -1,0 +1,38 @@
+body{
+    background-image: url("masterchief.jpeg");
+    background-size: 50%;
+    background-color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header{
+    text-align: left;
+    color: black;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#text{
+    background-color: white;
+    font-style: Sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.video{
+    position: fixed;
+    margin-left: 950px;
+    margin-top: -250px;
+}
+
+.link1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.link2{
+    margin-left: 30px;
+    margin-top: 60px;
+}
